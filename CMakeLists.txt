@@ -10,7 +10,7 @@ set_property(DIRECTORY PROPERTY EP_BASE ${CMAKE_BINARY_DIR}/subprojects)
 
 set(STAGED_INSTALL_PREFIX ${CMAKE_BINARY_DIR}/stage)
 
-add_subdirectory(thirdparty)
+add_subdirectory(vendor)
 
 include(ExternalProject)
 ExternalProject_Add(${PROJECT_NAME}_core
