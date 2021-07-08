@@ -22,7 +22,8 @@
           "name": "Windows",
           "includePath": [
               "${workspaceFolder}/src/**",
-              "${workspaceFolder}/build/stage/include/**"
+              "${workspaceFolder}/build/stage/include/**",
+              "${WXWIN}/include/**"
           ],
           "defines": [
               "__WXMSW__",
