@@ -12,7 +12,10 @@ cApp::~cApp()
 
 bool cApp::OnInit()
 {
-	m_frame1 = new cMain();
-	m_frame1->Show();
+	wxString title;
+	title.Printf(wxT("Welcome to %s"), wxVERSION_STRING);
+
+	m_frame = new cMain(title);
+	m_frame->Show();
 	return true;
 }

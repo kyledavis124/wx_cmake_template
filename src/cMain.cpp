@@ -1,6 +1,6 @@
 #include "cMain.h"
 
-cMain::cMain() : wxFrame(nullptr, wxID_ANY, "hello, world - wxWidgets!")
+cMain::cMain(const wxString &title) : wxFrame(nullptr, wxID_ANY, title)
 {
 }
 

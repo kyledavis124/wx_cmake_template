@@ -1,13 +1,13 @@
 #pragma once
 
-#include <wx/wxprec.h>
+#include "wx/wxprec.h"
 #ifndef WX_PRECOMP
-#include <wx/wx.h>
+#include "wx/wx.h"
 #endif
 
 class cMain : public wxFrame
 {
 public:
-	cMain();
+	cMain(const wxString &title);
 	~cMain();
 };
